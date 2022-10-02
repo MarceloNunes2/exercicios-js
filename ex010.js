@@ -6,5 +6,5 @@ object1{name="maria"}. João e João imprime true João e maria, imprime false
 const object = {name:"João"}
 const object1 = {name: "Maria"}
 
-console.log(object == object)
-console.log(object == object1)
+console.log(object.name == object1.name)
+console.log(object.name == object.name)
